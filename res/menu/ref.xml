@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Main Activity"/>
+    <item
+        android:id="@+id/edu"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Education"/>
+
+    <item
+        android:id="@+id/obj"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Objective"/>
+    <item
+        android:id="@+id/cont"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Contact"/>
+<item
+        android:id="@+id/per"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Personal"/>    
+
+</menu>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/me10" >
+    <TableRow >
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="EDUCATION DETAILS"
+        android:textSize="20sp"
+        />
+    </TableRow>
+    <TableRow >
+    <TextView 
+     android:layout_marginTop="25dp"
+     android:padding="3dip"  
+     
+     android:text="  SEMESTER"   
+     android:layout_width="80px" 
+     android:textSize="20sp"  
+     />    
+    <TextView 
+     android:layout_marginTop="25dp"   
+     android:text="POINTER"   
+    
+     android:layout_width="200px"
+     android:textSize="20sp" 
+     
+     />  
+    </TableRow>
+    <TableRow >
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="     VI"   
+    
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="  7.92"   
+    
+     android:layout_width="200px"
+     android:textSize="20sp"   
+     />
+    </TableRow>
+    <TableRow >
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="     V"   
+    
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="  7.29"   
+    
+     android:layout_width="200px"
+     android:textSize="20sp"   
+     />
+    </TableRow>
+    <TableRow >
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="     IV"   
+    
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    <TextView 
+     android:layout_marginTop="26dp"   
+     android:text="  8.14"   
+    
+     android:layout_width="200px"
+     android:textSize="20sp"   
+     />
+    </TableRow>
+    <TableRow >
+    <TextView    
+     android:text="     III"  
+     
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    <TextView    
+     android:text="  7.21"   
+     android:layout_width="200px"
+    
+     android:textSize="20sp"   
+     />
+    </TableRow>
+    <TableRow >
+    <TextView    
+     android:text="     II"   
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+    
+     />    
+    <TextView    
+     android:text="  7.22"   
+     android:layout_width="200px"
+    
+     android:textSize="20sp"   
+     />
+    </TableRow>
+    <TableRow >
+    <TextView  
+     android:text="     I"   
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+    
+     />    
+    <TextView    
+     android:text="  6.7"   
+     android:layout_width="200px"
+     android:textSize="20sp"   
+    
+     />
+    </TableRow>
+<TableRow >
+    <TextView    
+     android:layout_marginTop="30dp"  
+     
+     android:text="   X and XII percentage"   
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    </TableRow>
+    <TableRow >
+    <TextView    
+     android:layout_marginTop="15dp"    
+     android:text="     HSC"   
+    
+     android:layout_width="80px"  
+     android:textSize="20sp"  
+     />    
+    <TextView   
+     android:layout_marginTop="15dp"
+     android:text="  74.15%"   
+    
+     android:layout_width="200px"
+     android:textSize="20sp"   
+     />
+    </TableRow>
+<TableRow >
+    <TextView   
+     android:text="     SSC"   
+     android:layout_width="20px"  
+    
+     android:textSize="20sp"  
+     />    
+    <TextView    
+     android:text="  89.82%"   
+     android:layout_width="200px"
+    
+     android:textSize="20sp"   
+     />
+    </TableRow>
+</TableLayout>

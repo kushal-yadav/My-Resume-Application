@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/me11" >
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:text="PERSONAL INFORMATION"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+    <TextView 
+        android:layout_marginTop="11dp"
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Residential Address:  
+B/204,SHREEJI RESIDENCY,  PARSIK NAGAR, KALWA, THAME(W)-400605 "
+        />
+
+    <TextView 
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Strengths: 
+                                                                   •Good grasping power                                                                              
+•	Hard working and sincere                                                  
+•	Good Logical and Analytical Skills                                     
+•	Good communication skill"
+        />
+    <TextView 
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="PassTime Hobbies:
+Chess, 
+Drawing"
+        />
+    
+
+</LinearLayout>

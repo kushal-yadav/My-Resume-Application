@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myresumeapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.example.myresumeapp.home" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>         
+        <activity
+            android:name="com.example.myresumeapp.MainActivity" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="main1" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>          
+        
+        <activity
+            android:name="com.example.myresumeapp.education"
+            android:label="education" >
+        <intent-filter>
+                <action android:name="education1" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>    
+        
+        <activity
+            android:name="com.example.myresumeapp.objective"
+            android:label="objective" >
+        <intent-filter>
+                <action android:name="objective1" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.myresumeapp.contact"
+            android:label="contact" >
+        <intent-filter>
+                <action android:name="contact1" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+            
+        <activity
+            android:name="com.example.myresumeapp.personal"
+            android:label="personal" >
+        <intent-filter>
+                <action android:name="personal1" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.myresumeapp.reference"
+            android:label="reference" >
+        <intent-filter>
+                <action android:name="reference1" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        
+        </activity>
+    </application>
+
+</manifest>
